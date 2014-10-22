@@ -1,0 +1,28 @@
+{
+  "name": "reboot",
+  "version": "0.0.1",
+  "description": "forever reboot script ",
+  "main": "index.js",
+  "dependencies": {
+    "async": "^0.9.0",
+    "gift": "^0.4.3-1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/buctyoyo/reboot.git"
+  },
+  "keywords": [
+    "forever",
+    "hook"
+  ],
+  "author": "yuansc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/buctyoyo/reboot/issues"
+  },
+  "homepage": "https://github.com/buctyoyo/reboot"
+}
