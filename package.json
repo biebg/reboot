@@ -1,5 +1,5 @@
 {
-  "name": "reboot",
+  "name": "forever-reboot",
   "version": "0.0.1",
   "description": "forever reboot script ",
   "main": "index.js",
