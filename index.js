@@ -12,7 +12,7 @@ var async = require('async');
  * @param options
  * @param callback
  */
-Reboot.config = function(options) {
+Reboot = function(options) {
   if(!options.main) throw new Error('main is needed');
   options.method = options.method || 'forever';
   options.branch = options.branch || 'master';
@@ -23,7 +23,6 @@ Reboot.config = function(options) {
     if(err) {
       throw new Error('git repo init failed');
     }
-    console.log(options);
     Reboot.repo = repo;
     Reboot._hook();
   });
